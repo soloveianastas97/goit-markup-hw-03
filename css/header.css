@@ -8,6 +8,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
+  margin-right: 76px;
 }
 .header-nav {
   font-weight: 500;
@@ -21,6 +22,8 @@
 .header-item {
 }
 .header-nav-link {
+  display: block;
+  padding: 24px;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -32,8 +35,11 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: auto;
 }
 .address-list {
+  display: flex;
+  gap: 40px;
 }
 .address-item {
 }
@@ -42,4 +48,12 @@
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
 }
